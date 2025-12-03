@@ -18,11 +18,40 @@ namespace SorrisoDaFortuna
         {
             usuarioLogado = usuario;
             InitializeComponent();
+            label2.Text = $"Olá {usuarioLogado.Nome}! Seu saldo é R${usuarioLogado.Saldo}";
         }
 
         private void btnSair_Click(object sender, EventArgs e)
         {
             Application.Exit();
+        }
+
+        private void btn21_Click(object sender, EventArgs e)
+        {
+            Form21 black = new Form21(usuarioLogado);
+            this.Close();
+            black.ShowDialog();
+        }
+
+        private void btnBicho_Click(object sender, EventArgs e)
+        {
+            FormBicho bicho = new FormBicho(usuarioLogado);
+            this.Close();
+            bicho.ShowDialog();
+        }
+
+        private void btnRoleta_Click(object sender, EventArgs e)
+        {
+            FormTigrinho tigrinho = new FormTigrinho(usuarioLogado);
+            this.Close();
+            tigrinho.ShowDialog();
+        }
+
+        private void btnDepositar_Click(object sender, EventArgs e)
+        {
+            FormDeposito depo = new FormDeposito(usuarioLogado);
+            this.Close();
+            depo.ShowDialog();
         }
     }
 }

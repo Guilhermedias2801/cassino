@@ -1,0 +1,75 @@
+## Build results
+bin/
+obj/
+[Bb]uild/
+[Bb]uilds/
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+
+## Visual Studio cache
+.vs/
+*.dtbcache.json
+
+## Usuários / ambiente
+*.user
+*.userosscache
+*.suo
+
+## Configurações temporárias
+*.tmp
+*.temp
+*.log
+
+## Arquivos de backup
+*.bak
+*.old
+
+## Diretório de pacotes NuGet (se existir)
+packages/
+*.nupkg
+
+## Resharper / Rider
+_ReSharper*/
+*.DotSettings.user
+
+## Arquivos de configuração locais
+appsettings.Development.json
+appsettings.Local.json
+
+## Dados de Publish
+publish/
+*.pubxml
+*.pubxml.user
+
+## Arquivos gerados automaticamente
+*.Designer.cs
+*.resx
+*.cache
+*.ipch
+
+## Arquivos do Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+## IDEs diversas
+.vscode/
+.idea/
+*.code-workspace
+
+## Test results
+TestResults/
+
+## Ferramentas de build
+project.lock.json
+project.fragment.lock.json
+
+## Auto backups do Visual Studio
+*.psess
+*.vsp
+*.vspx
+*.vsmdi

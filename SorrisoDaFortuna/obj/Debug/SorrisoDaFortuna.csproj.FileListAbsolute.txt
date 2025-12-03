@@ -41,3 +41,8 @@ C:\Users\guilh\JS\TrabCassino\cassino-projeto\SorrisoDaFortuna\SorrisoDaFortuna\
 C:\Users\guilh\JS\TrabCassino\cassino-projeto\SorrisoDaFortuna\SorrisoDaFortuna\obj\Debug\SorrisoDaFortuna.exe
 C:\Users\guilh\JS\TrabCassino\cassino-projeto\SorrisoDaFortuna\SorrisoDaFortuna\obj\Debug\SorrisoDaFortuna.pdb
 C:\Users\guilh\JS\TrabCassino\cassino-projeto\SorrisoDaFortuna\SorrisoDaFortuna\obj\Debug\SorrisoDaFortuna.MainForm.resources
+C:\Users\guilh\JS\TrabCassino\cassino-projeto\SorrisoDaFortuna\SorrisoDaFortuna\obj\Debug\SorrisoDaFortuna.FormNumBichos.resources
+C:\Users\guilh\JS\TrabCassino\cassino-projeto\SorrisoDaFortuna\SorrisoDaFortuna\obj\Debug\SorrisoDaFortuna.FormTigrinho.resources
+C:\Users\guilh\JS\TrabCassino\cassino-projeto\SorrisoDaFortuna\SorrisoDaFortuna\obj\Debug\SorrisoDaFortuna.FormBicho.resources
+C:\Users\guilh\JS\TrabCassino\cassino-projeto\SorrisoDaFortuna\SorrisoDaFortuna\obj\Debug\SorrisoDaFortuna.Form21.resources
+C:\Users\guilh\JS\TrabCassino\cassino-projeto\SorrisoDaFortuna\SorrisoDaFortuna\obj\Debug\SorrisoDaFortuna.FormDeposito.resources

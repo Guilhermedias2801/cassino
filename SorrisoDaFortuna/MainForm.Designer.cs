@@ -34,6 +34,7 @@
             this.btnSair = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.btnDepositar = new System.Windows.Forms.Button();
+            this.label2 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // btn21
@@ -44,6 +45,7 @@
             this.btn21.TabIndex = 0;
             this.btn21.Text = "Jogar Blackjack(21)";
             this.btn21.UseVisualStyleBackColor = true;
+            this.btn21.Click += new System.EventHandler(this.btn21_Click);
             // 
             // btnBicho
             // 
@@ -53,6 +55,7 @@
             this.btnBicho.TabIndex = 1;
             this.btnBicho.Text = "Jogar Jogo do Bicho";
             this.btnBicho.UseVisualStyleBackColor = true;
+            this.btnBicho.Click += new System.EventHandler(this.btnBicho_Click);
             // 
             // btnRoleta
             // 
@@ -62,6 +65,7 @@
             this.btnRoleta.TabIndex = 2;
             this.btnRoleta.Text = "Jogar Roleta";
             this.btnRoleta.UseVisualStyleBackColor = true;
+            this.btnRoleta.Click += new System.EventHandler(this.btnRoleta_Click);
             // 
             // btnSair
             // 
@@ -89,6 +93,16 @@
             this.btnDepositar.TabIndex = 5;
             this.btnDepositar.Text = "Depositar ";
             this.btnDepositar.UseVisualStyleBackColor = true;
+            this.btnDepositar.Click += new System.EventHandler(this.btnDepositar_Click);
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(330, 79);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(44, 16);
+            this.label2.TabIndex = 6;
+            this.label2.Text = "label2";
             // 
             // MainForm
             // 
@@ -96,6 +110,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Red;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.label2);
             this.Controls.Add(this.btnDepositar);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.btnSair);
@@ -117,5 +132,6 @@
         private System.Windows.Forms.Button btnSair;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Button btnDepositar;
+        private System.Windows.Forms.Label label2;
     }
 }

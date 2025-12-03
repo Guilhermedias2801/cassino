@@ -81,7 +81,7 @@ namespace SorrisoDaFortuna
                 }
             }
         }
-        public int AtualizarSaldo(Usuario usuario)
+        public int AtualizarSaldo(Usuario usuario, double valor)
         {
             int linhasAfetadas = -1;
             using (var connection = new MySqlConnection(_connectionString))
@@ -92,7 +92,7 @@ namespace SorrisoDaFortuna
                     string query = "UPDATE usuario SET saldo = saldo+@Saldo WHERE email = @Email";
                     using (var command = new MySqlCommand(query, connection))
                     {
-                        command.Parameters.AddWithValue("@Saldo", usuario.Saldo);
+                        command.Parameters.AddWithValue("@Saldo", valor);
                         command.Parameters.AddWithValue("@Email", usuario.Email);
                         linhasAfetadas = command.ExecuteNonQuery();
 
