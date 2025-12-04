@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace SorrisoDaFortuna {
+namespace SorrisoDaFortuna.Forms {
     using System;
     
     
@@ -22,9 +22,8 @@ namespace SorrisoDaFortuna {
     [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Resources.Tools.StronglyTypedResourceBuilder", "17.0.0.0")]
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
-    public partial class FormTigrinho
-    {
-
+    internal class FormTigrinho {
+        
         private static global::System.Resources.ResourceManager resourceMan;
         
         private static global::System.Globalization.CultureInfo resourceCulture;
@@ -40,7 +39,7 @@ namespace SorrisoDaFortuna {
         internal static global::System.Resources.ResourceManager ResourceManager {
             get {
                 if (object.ReferenceEquals(resourceMan, null)) {
-                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("SorrisoDaFortuna.FormTigrinho", typeof(FormTigrinho).Assembly);
+                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("SorrisoDaFortuna.Forms.FormTigrinho", typeof(FormTigrinho).Assembly);
                     resourceMan = temp;
                 }
                 return resourceMan;

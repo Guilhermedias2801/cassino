@@ -8,7 +8,7 @@
     <OutputType>WinExe</OutputType>
     <RootNamespace>SorrisoDaFortuna</RootNamespace>
     <AssemblyName>SorrisoDaFortuna</AssemblyName>
-    <TargetFrameworkVersion>v4.6.2</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
     <Deterministic>true</Deterministic>
@@ -27,6 +27,7 @@
     <IsWebBootstrapper>false</IsWebBootstrapper>
     <UseApplicationTrust>false</UseApplicationTrust>
     <BootstrapperEnabled>true</BootstrapperEnabled>
+    <TargetFrameworkProfile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -110,89 +111,89 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="FormNumBichos.cs">
+    <Compile Include="Forms\FormNumBichos.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FormNumBichos.Designer.cs">
+    <Compile Include="Forms\FormNumBichos.Designer.cs">
       <DependentUpon>FormNumBichos.cs</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="FormNumBichos.resx">
+    <EmbeddedResource Include="Forms\FormNumBichos.resx">
       <DependentUpon>FormNumBichos.cs</DependentUpon>
     </EmbeddedResource>
-    <Compile Include="FormDeposito.cs">
+    <Compile Include="Forms\FormDeposito.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FormDeposito.Designer.cs">
+    <Compile Include="Forms\FormDeposito.Designer.cs">
       <DependentUpon>FormDeposito.cs</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="FormDeposito.resx">
+    <EmbeddedResource Include="Forms\FormDeposito.resx">
       <DependentUpon>FormDeposito.cs</DependentUpon>
     </EmbeddedResource>
-    <Compile Include="FormTigrinho.cs">
+    <Compile Include="Forms\FormTigrinho.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FormTigrinho.Designer.cs">
+    <Compile Include="Forms\FormTigrinho.Designer.cs">
       <DependentUpon>FormTigrinho.cs</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="FormTigrinho.resx">
+    <EmbeddedResource Include="Forms\FormTigrinho.resx">
       <DependentUpon>FormTigrinho.cs</DependentUpon>
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>FormTigrinho1.Designer.cs</LastGenOutput>
     </EmbeddedResource>
-    <Compile Include="FormBicho.cs">
+    <Compile Include="Forms\FormBicho.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FormBicho.Designer.cs">
+    <Compile Include="Forms\FormBicho.Designer.cs">
       <DependentUpon>FormBicho.cs</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="FormBicho.resx">
+    <EmbeddedResource Include="Forms\FormBicho.resx">
       <DependentUpon>FormBicho.cs</DependentUpon>
     </EmbeddedResource>
-    <Compile Include="Form21.cs">
+    <Compile Include="Forms\Form21.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form21.Designer.cs">
+    <Compile Include="Forms\Form21.Designer.cs">
       <DependentUpon>Form21.cs</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="Form21.resx">
+    <EmbeddedResource Include="Forms\Form21.resx">
       <DependentUpon>Form21.cs</DependentUpon>
     </EmbeddedResource>
-    <Compile Include="BdUtil.cs" />
-    <Compile Include="FormLogin.cs">
+    <Compile Include="Util\BdUtil.cs" />
+    <Compile Include="Forms\FormLogin.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FormLogin.Designer.cs">
+    <Compile Include="Forms\FormLogin.Designer.cs">
       <DependentUpon>FormLogin.cs</DependentUpon>
     </Compile>
-    <Compile Include="FormCadastro.cs">
+    <Compile Include="Forms\FormCadastro.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FormCadastro.Designer.cs">
+    <Compile Include="Forms\FormCadastro.Designer.cs">
       <DependentUpon>FormCadastro.cs</DependentUpon>
     </Compile>
-    <Compile Include="FormTigrinho1.Designer.cs">
+    <Compile Include="Forms\FormTigrinho1.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>FormTigrinho.resx</DependentUpon>
     </Compile>
-    <Compile Include="HashUtil.cs" />
-    <Compile Include="MainForm.cs">
+    <Compile Include="Util\HashUtil.cs" />
+    <Compile Include="Forms\MainForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="MainForm.Designer.cs">
+    <Compile Include="Forms\MainForm.Designer.cs">
       <DependentUpon>MainForm.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Usuario.cs" />
-    <Compile Include="UsuarioRepository.cs" />
-    <EmbeddedResource Include="FormLogin.resx">
+    <Compile Include="Entidade\Usuario.cs" />
+    <Compile Include="Repo\UsuarioRepository.cs" />
+    <EmbeddedResource Include="Forms\FormLogin.resx">
       <DependentUpon>FormLogin.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FormCadastro.resx">
+    <EmbeddedResource Include="Forms\FormCadastro.resx">
       <DependentUpon>FormCadastro.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="MainForm.resx">
+    <EmbeddedResource Include="Forms\MainForm.resx">
       <DependentUpon>MainForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
@@ -203,6 +204,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
