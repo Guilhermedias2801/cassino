@@ -13,8 +13,8 @@ namespace SorrisoDaFortuna
         {
             usuarioLogado = usuario;
             InitializeComponent();
-
             usuarioLogado.Saldo = repo.ObterSaldoAtual(usuarioLogado.Email);
+            ExibirSaldo();
         }
 
         private void btnVoltar_Click(object sender, EventArgs e)
@@ -40,6 +40,7 @@ namespace SorrisoDaFortuna
 
             Random rnd = new Random();
             int numeroSorteado = rnd.Next(1, 26);
+            ExibirSaldo();
 
             string animalAposta = ObterAnimalDoJogoDoBicho(numAposta);
             string animalSorteado = ObterAnimalDoJogoDoBicho(numeroSorteado);
@@ -122,6 +123,14 @@ namespace SorrisoDaFortuna
             FormNumBichos bichos = new FormNumBichos(usuarioLogado);
             this.Hide();
             bichos.ShowDialog();
+        }
+        private void lblSaldo_Click(object sender, EventArgs e)
+        {
+
+        }
+        private void ExibirSaldo()
+        {
+            lblSaldo.Text = $"Saldo: R$ {usuarioLogado.Saldo:F2}";
         }
     }
 }

@@ -76,6 +76,9 @@
             // 
             // cmbApostas
             // 
+            this.cmbApostas.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(50)))), ((int)(((byte)(50)))), ((int)(((byte)(50)))));
+            this.cmbApostas.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cmbApostas.ForeColor = System.Drawing.Color.White;
             this.cmbApostas.FormattingEnabled = true;
             this.cmbApostas.Location = new System.Drawing.Point(288, 303);
             this.cmbApostas.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
@@ -85,39 +88,48 @@
             // 
             // btnPlay
             // 
-            this.btnPlay.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(110)))));
+            this.btnPlay.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(150)))), ((int)(((byte)(0)))));
             this.btnPlay.FlatAppearance.BorderSize = 0;
             this.btnPlay.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnPlay.Location = new System.Drawing.Point(165, 340);
+            this.btnPlay.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnPlay.ForeColor = System.Drawing.Color.White;
+            this.btnPlay.Location = new System.Drawing.Point(150, 340);
             this.btnPlay.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.btnPlay.Name = "btnPlay";
-            this.btnPlay.Size = new System.Drawing.Size(95, 25);
+            this.btnPlay.Size = new System.Drawing.Size(120, 35);
             this.btnPlay.TabIndex = 4;
-            this.btnPlay.Text = "SPIN";
+            this.btnPlay.Text = "GIRAR 🍀";
             this.btnPlay.UseVisualStyleBackColor = false;
             this.btnPlay.Click += new System.EventHandler(this.btnPlay_Click_1);
             // 
             // btnVoltar
             // 
-            this.btnVoltar.Location = new System.Drawing.Point(182, 373);
+            this.btnVoltar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(60)))), ((int)(((byte)(60)))));
+            this.btnVoltar.FlatAppearance.BorderSize = 0;
+            this.btnVoltar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnVoltar.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnVoltar.ForeColor = System.Drawing.Color.WhiteSmoke;
+            this.btnVoltar.Location = new System.Drawing.Point(165, 385);
             this.btnVoltar.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.btnVoltar.Name = "btnVoltar";
-            this.btnVoltar.Size = new System.Drawing.Size(61, 27);
+            this.btnVoltar.Size = new System.Drawing.Size(90, 30);
             this.btnVoltar.TabIndex = 5;
             this.btnVoltar.Text = "Voltar";
-            this.btnVoltar.UseVisualStyleBackColor = true;
+            this.btnVoltar.UseVisualStyleBackColor = false;
             this.btnVoltar.Click += new System.EventHandler(this.btnVoltar_Click);
             // 
             // lblSaldo
             // 
             this.lblSaldo.AutoSize = true;
             this.lblSaldo.BackColor = System.Drawing.Color.Transparent;
-            this.lblSaldo.ForeColor = System.Drawing.Color.White;
-            this.lblSaldo.Location = new System.Drawing.Point(152, 311);
+            this.lblSaldo.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblSaldo.ForeColor = System.Drawing.Color.Gold;
+            this.lblSaldo.Location = new System.Drawing.Point(146, 318);
             this.lblSaldo.Name = "lblSaldo";
-            this.lblSaldo.Size = new System.Drawing.Size(40, 15);
+            this.lblSaldo.Size = new System.Drawing.Size(80, 19);
             this.lblSaldo.TabIndex = 6;
-            this.lblSaldo.Text = "label1";
+            this.lblSaldo.Text = "SALDO: R$";
+            this.lblSaldo.Click += new System.EventHandler(this.lblSaldo_Click);
             // 
             // FormSlotMachine
             // 
@@ -125,7 +137,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(442, 425);
+            this.ClientSize = new System.Drawing.Size(442, 435);
             this.Controls.Add(this.lblSaldo);
             this.Controls.Add(this.btnVoltar);
             this.Controls.Add(this.btnPlay);
@@ -136,7 +148,7 @@
             this.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.Name = "FormSlotMachine";
-            this.Text = "FormSlotMachine";
+            this.Text = "Slot Machine - Caça Níqueis";
             this.ResumeLayout(false);
             this.PerformLayout();
 

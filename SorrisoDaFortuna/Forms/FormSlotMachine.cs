@@ -137,5 +137,10 @@ namespace SorrisoDaFortuna
         {
             this.Close();
         }
+
+        private void lblSaldo_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
