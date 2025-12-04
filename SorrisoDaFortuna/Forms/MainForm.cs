@@ -42,10 +42,12 @@ namespace SorrisoDaFortuna
 
         private void btnRoleta_Click(object sender, EventArgs e)
         {
-            FormTigrinho tigrinho = new FormTigrinho(usuarioLogado);
-            this.Close();
-            tigrinho.ShowDialog();
+            this.Hide();
+            var form = new FormSlotMachine(usuarioLogado, BdUtil.ConnectionString);
+            form.ShowDialog();
+            this.Show();
         }
+
 
         private void btnDepositar_Click(object sender, EventArgs e)
         {

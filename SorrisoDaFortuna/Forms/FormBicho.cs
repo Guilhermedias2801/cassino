@@ -1,11 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace SorrisoDaFortuna
@@ -14,10 +8,13 @@ namespace SorrisoDaFortuna
     {
         UsuarioRepository repo = new UsuarioRepository(BdUtil.ConnectionString);
         private Usuario usuarioLogado;
+
         public FormBicho(Usuario usuario)
         {
             usuarioLogado = usuario;
             InitializeComponent();
+
+            usuarioLogado.Saldo = repo.ObterSaldoAtual(usuarioLogado.Email);
         }
 
         private void btnVoltar_Click(object sender, EventArgs e)
@@ -26,25 +23,39 @@ namespace SorrisoDaFortuna
             this.Hide();
             main.ShowDialog();
         }
-            private void btnApostar_Click(object sender, EventArgs e)
+
+        private void btnApostar_Click(object sender, EventArgs e)
         {
             int numAposta = Convert.ToInt32(numericUpDown1.Value);
 
-           
+            decimal valorAposta = 10.00m;
+
+            if (usuarioLogado.Saldo < valorAposta)
+            {
+                MessageBox.Show($"Saldo insuficiente! Você tem R$ {usuarioLogado.Saldo:F2}");
+                return;
+            }
+
+            AtualizarSaldoLocalEBanco(-valorAposta);
+
             Random rnd = new Random();
             int numeroSorteado = rnd.Next(1, 26);
 
-            
             string animalAposta = ObterAnimalDoJogoDoBicho(numAposta);
             string animalSorteado = ObterAnimalDoJogoDoBicho(numeroSorteado);
 
-           
             if (numAposta == numeroSorteado)
             {
+                decimal premio = valorAposta * 20;
+
+                AtualizarSaldoLocalEBanco(premio);
+
                 MessageBox.Show(
                     $"🎉 Você GANHOU!\n\n" +
                     $"Seu bicho: {numAposta} - {animalAposta}\n" +
-                    $"Sorteado: {numeroSorteado} - {animalSorteado}"
+                    $"Sorteado: {numeroSorteado} - {animalSorteado}\n\n" +
+                    $"Ganhou: R$ {premio:F2}\n" +
+                    $"Saldo atual: R$ {usuarioLogado.Saldo:F2}"
                 );
             }
             else
@@ -52,40 +63,53 @@ namespace SorrisoDaFortuna
                 MessageBox.Show(
                     $"😢 Você PERDEU!\n\n" +
                     $"Seu bicho: {numAposta} - {animalAposta}\n" +
-                    $"Sorteado: {numeroSorteado} - {animalSorteado}"
+                    $"Sorteado: {numeroSorteado} - {animalSorteado}\n\n" +
+                    $"Saldo atual: R$ {usuarioLogado.Saldo:F2}"
                 );
             }
         }
+
+        private void AtualizarSaldoLocalEBanco(decimal valor)
+        {
+            usuarioLogado.Saldo += valor;
+
+            repo.AtualizarSaldo(new Usuario
+            {
+                Email = usuarioLogado.Email,
+                Saldo = valor
+            });
+        }
+
         public static string ObterAnimalDoJogoDoBicho(int numero)
         {
             Dictionary<int, string> animais = new Dictionary<int, string>()
-    {
-        { 1,  "Avestruz" },
-        { 2,  "Águia" },
-        { 3,  "Burro" },
-        { 4,  "Borboleta" },
-        { 5,  "Cachorro" },
-        { 6,  "Cabra" },
-        { 7,  "Carneiro" },
-        { 8,  "Camelo" },
-        { 9,  "Cobra" },
-        { 10, "Coelho" },
-        { 11, "Cavalo" },
-        { 12, "Elefante" },
-        { 13, "Galo" },
-        { 14, "Gato" },
-        { 15, "Jacaré" },
-        { 16, "Leão" },
-        { 17, "Macaco" },
-        { 18, "Porco" },
-        { 19, "Pavão" },
-        { 20, "Peru" },
-        { 21, "Touro" },
-        { 22, "Tigre" },
-        { 23, "Urso" },
-        { 24, "Veado" },
-        { 25, "Vaca" }
-    };
+            {
+                { 1,  "Avestruz" },
+                { 2,  "Águia" },
+                { 3,  "Burro" },
+                { 4,  "Borboleta" },
+                { 5,  "Cachorro" },
+                { 6,  "Cabra" },
+                { 7,  "Carneiro" },
+                { 8,  "Camelo" },
+                { 9,  "Cobra" },
+                { 10, "Coelho" },
+                { 11, "Cavalo" },
+                { 12, "Elefante" },
+                { 13, "Galo" },
+                { 14, "Gato" },
+                { 15, "Jacaré" },
+                { 16, "Leão" },
+                { 17, "Macaco" },
+                { 18, "Porco" },
+                { 19, "Pavão" },
+                { 20, "Peru" },
+                { 21, "Touro" },
+                { 22, "Tigre" },
+                { 23, "Urso" },
+                { 24, "Veado" },
+                { 25, "Vaca" }
+            };
 
             if (animais.ContainsKey(numero))
                 return animais[numero];
@@ -101,3 +125,4 @@ namespace SorrisoDaFortuna
         }
     }
 }
+

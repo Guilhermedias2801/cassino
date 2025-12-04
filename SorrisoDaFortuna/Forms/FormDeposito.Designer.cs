@@ -1,4 +1,8 @@
-﻿namespace SorrisoDaFortuna
+﻿using System.Drawing;
+using System.Windows.Forms;
+
+// Corrigido: O namespace deve ser o mesmo do arquivo principal
+namespace SorrisoDaFortuna
 {
     partial class FormDeposito
     {
@@ -6,6 +10,13 @@
         /// Required designer variable.
         /// </summary>
         private System.ComponentModel.IContainer components = null;
+
+        // Declaração dos novos elementos
+        private Label lblTitulo;
+        private Label lblValor;
+        private TextBox txtValor;
+        private Button btnDepositar;
+        private Button btnVoltar;
 
         /// <summary>
         /// Clean up any resources being used.
@@ -28,71 +39,81 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.label1 = new System.Windows.Forms.Label();
+            this.lblTitulo = new System.Windows.Forms.Label();
+            this.lblValor = new System.Windows.Forms.Label();
             this.txtValor = new System.Windows.Forms.TextBox();
-            this.btnDeposito = new System.Windows.Forms.Button();
+            this.btnDepositar = new System.Windows.Forms.Button();
             this.btnVoltar = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
-            // label1
+            // lblTitulo
             // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(203, 179);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(180, 16);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "Qual valor deseja depositar?";
+            this.lblTitulo.AutoSize = true;
+            this.lblTitulo.Font = new System.Drawing.Font("Segoe UI", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTitulo.Location = new System.Drawing.Point(120, 30);
+            this.lblTitulo.Name = "lblTitulo";
+            this.lblTitulo.Size = new System.Drawing.Size(226, 30);
+            this.lblTitulo.TabIndex = 0;
+            this.lblTitulo.Text = "Realizar Novo Depósito";
+            this.lblTitulo.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // lblValor
+            // 
+            this.lblValor.AutoSize = true;
+            this.lblValor.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblValor.Location = new System.Drawing.Point(90, 100);
+            this.lblValor.Name = "lblValor";
+            this.lblValor.Size = new System.Drawing.Size(107, 19);
+            this.lblValor.TabIndex = 1;
+            this.lblValor.Text = "Valor (R$):";
             // 
             // txtValor
             // 
-            this.txtValor.Location = new System.Drawing.Point(399, 176);
+            this.txtValor.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtValor.Location = new System.Drawing.Point(200, 97);
             this.txtValor.Name = "txtValor";
-            this.txtValor.Size = new System.Drawing.Size(100, 22);
-            this.txtValor.TabIndex = 1;
+            this.txtValor.Size = new System.Drawing.Size(170, 25);
+            this.txtValor.TabIndex = 2;
             // 
-            // btnDeposito
+            // btnDepositar
             // 
-            this.btnDeposito.Location = new System.Drawing.Point(354, 244);
-            this.btnDeposito.Name = "btnDeposito";
-            this.btnDeposito.Size = new System.Drawing.Size(119, 43);
-            this.btnDeposito.TabIndex = 2;
-            this.btnDeposito.Text = "Depositar";
-            this.btnDeposito.UseVisualStyleBackColor = true;
-            this.btnDeposito.Click += new System.EventHandler(this.btnDeposito_Click);
+            this.btnDepositar.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnDepositar.Location = new System.Drawing.Point(260, 160);
+            this.btnDepositar.Name = "btnDepositar";
+            this.btnDepositar.Size = new System.Drawing.Size(110, 35);
+            this.btnDepositar.TabIndex = 3;
+            this.btnDepositar.Text = "Depositar";
+            this.btnDepositar.UseVisualStyleBackColor = true;
+            this.btnDepositar.Click += new System.EventHandler(this.btnDepositar_Click);
             // 
             // btnVoltar
             // 
-            this.btnVoltar.Location = new System.Drawing.Point(354, 308);
+            this.btnVoltar.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnVoltar.Location = new System.Drawing.Point(90, 160);
             this.btnVoltar.Name = "btnVoltar";
-            this.btnVoltar.Size = new System.Drawing.Size(119, 42);
-            this.btnVoltar.TabIndex = 3;
+            this.btnVoltar.Size = new System.Drawing.Size(110, 35);
+            this.btnVoltar.TabIndex = 4;
             this.btnVoltar.Text = "Voltar";
             this.btnVoltar.UseVisualStyleBackColor = true;
             this.btnVoltar.Click += new System.EventHandler(this.btnVoltar_Click);
             // 
             // FormDeposito
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.Red;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(466, 250);
             this.Controls.Add(this.btnVoltar);
-            this.Controls.Add(this.btnDeposito);
+            this.Controls.Add(this.btnDepositar);
             this.Controls.Add(this.txtValor);
-            this.Controls.Add(this.label1);
+            this.Controls.Add(this.lblValor);
+            this.Controls.Add(this.lblTitulo);
             this.Name = "FormDeposito";
-            this.Text = "FormDeposito";
-            this.Load += new System.EventHandler(this.FormDeposito_Load);
+            this.Text = "Depósito";
             this.ResumeLayout(false);
             this.PerformLayout();
-
         }
 
         #endregion
 
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.TextBox txtValor;
-        private System.Windows.Forms.Button btnDeposito;
-        private System.Windows.Forms.Button btnVoltar;
     }
 }

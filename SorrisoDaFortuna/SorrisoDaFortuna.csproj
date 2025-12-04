@@ -129,16 +129,16 @@
     <EmbeddedResource Include="Forms\FormDeposito.resx">
       <DependentUpon>FormDeposito.cs</DependentUpon>
     </EmbeddedResource>
-    <Compile Include="Forms\FormTigrinho.cs">
+    <Compile Include="Forms\FormSlotMachine.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Forms\FormTigrinho.Designer.cs">
-      <DependentUpon>FormTigrinho.cs</DependentUpon>
+    <Compile Include="Forms\FormSlotMachine.Designer.cs">
+      <DependentUpon>FormSlotMachine.cs</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="Forms\FormTigrinho.resx">
-      <DependentUpon>FormTigrinho.cs</DependentUpon>
+    <EmbeddedResource Include="Forms\FormSlotMachine.resx">
+      <DependentUpon>FormSlotMachine.cs</DependentUpon>
       <Generator>ResXFileCodeGenerator</Generator>
-      <LastGenOutput>FormTigrinho1.Designer.cs</LastGenOutput>
+      <LastGenOutput>FormSlotMachine1.Designer.cs</LastGenOutput>
     </EmbeddedResource>
     <Compile Include="Forms\FormBicho.cs">
       <SubType>Form</SubType>
@@ -171,10 +171,10 @@
     <Compile Include="Forms\FormCadastro.Designer.cs">
       <DependentUpon>FormCadastro.cs</DependentUpon>
     </Compile>
-    <Compile Include="Forms\FormTigrinho1.Designer.cs">
+    <Compile Include="Forms\FormSlotMachine1.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
-      <DependentUpon>FormTigrinho.resx</DependentUpon>
+      <DependentUpon>FormSlotMachine.resx</DependentUpon>
     </Compile>
     <Compile Include="Util\HashUtil.cs" />
     <Compile Include="Forms\MainForm.cs">

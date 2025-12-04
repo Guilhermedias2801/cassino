@@ -10,7 +10,7 @@ namespace SorrisoDaFortuna
     {
         public int Id { get; set; }
         public string Nome { get; set; }
-        public double Saldo { get; set; }
+        public decimal Saldo { get; set; }
         public string Email { get; set; }
         public string Senha { get; set; }
     }

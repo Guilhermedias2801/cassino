@@ -1,22 +1,18 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Data.SqlClient;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using MySql.Data.MySqlClient;
+using System.Linq;
 
 namespace SorrisoDaFortuna
 {
     internal class UsuarioRepository
     {
-
         private readonly string _connectionString;
 
         public UsuarioRepository(string connectionString)
         {
             _connectionString = connectionString;
         }
+
         public Usuario ObterPorEmailESenha(string email, string senha)
         {
             try
@@ -25,8 +21,7 @@ namespace SorrisoDaFortuna
                 {
                     connection.Open();
                     string hashSenha = HashUtil.GerarHashSha256(senha);
-
-                    string query = @"SELECT email, nome, senha FROM usuario WHERE email = @Email AND senha = @Senha";
+                    string query = @"SELECT email, nome, saldo, senha FROM usuario WHERE email = @Email AND senha = @Senha";
 
                     using (var command = new MySqlCommand(query, connection))
                     {
@@ -39,9 +34,10 @@ namespace SorrisoDaFortuna
                             {
                                 return new Usuario
                                 {
-                                    Email= reader.GetString("email"),
+                                    Email = reader.GetString("email"),
                                     Nome = reader.GetString("nome"),
                                     Senha = reader.GetString("senha"),
+                                    Saldo = reader.GetDecimal("saldo")
                                 };
                             }
                         }
@@ -81,7 +77,8 @@ namespace SorrisoDaFortuna
                 }
             }
         }
-        public int AtualizarSaldo(Usuario usuario, double valor)
+
+        public int AtualizarSaldo(Usuario usuario)
         {
             int linhasAfetadas = -1;
             using (var connection = new MySqlConnection(_connectionString))
@@ -92,7 +89,7 @@ namespace SorrisoDaFortuna
                     string query = "UPDATE usuario SET saldo = saldo+@Saldo WHERE email = @Email";
                     using (var command = new MySqlCommand(query, connection))
                     {
-                        command.Parameters.AddWithValue("@Saldo", valor);
+                        command.Parameters.AddWithValue("@Saldo", usuario.Saldo);
                         command.Parameters.AddWithValue("@Email", usuario.Email);
                         linhasAfetadas = command.ExecuteNonQuery();
 
@@ -106,5 +103,31 @@ namespace SorrisoDaFortuna
                 }
             }
         }
+        public decimal ObterSaldoAtual(string email)
+        {
+            decimal saldo = 0m;
+
+            using (MySqlConnection conn = new MySqlConnection(_connectionString))
+            {
+                conn.Open();
+
+                string sql = "SELECT saldo FROM usuario WHERE email = @Email LIMIT 1";
+
+                using (MySqlCommand cmd = new MySqlCommand(sql, conn))
+                {
+                    cmd.Parameters.AddWithValue("@Email", email);
+
+                    object result = cmd.ExecuteScalar();
+
+                    if (result != null && result != DBNull.Value)
+                    {
+                        saldo = Convert.ToDecimal(result);
+                    }
+                }
+            }
+
+            return saldo;
+        }
+
     }
 }
