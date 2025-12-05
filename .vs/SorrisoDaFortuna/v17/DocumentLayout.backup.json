@@ -1,131 +1,146 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\guilh\\JS\\TrabCassino\\cassino-projeto\\SorrisoDaFortuna\\",
+  "WorkspaceRootPath": "C:\\Users\\Usuario\\Documents\\Tarb_Cassino\\cassino\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{031A3E94-01FD-4CF9-8259-C8549D669285}|SorrisoDaFortuna\\SorrisoDaFortuna.csproj|c:\\users\\guilh\\js\\trabcassino\\cassino-projeto\\sorrisodafortuna\\sorrisodafortuna\\forms\\formbicho.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{031A3E94-01FD-4CF9-8259-C8549D669285}|SorrisoDaFortuna\\SorrisoDaFortuna.csproj|solutionrelative:sorrisodafortuna\\forms\\formbicho.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{031A3E94-01FD-4CF9-8259-C8549D669285}|SorrisoDaFortuna\\SorrisoDaFortuna.csproj|C:\\Users\\guilh\\JS\\TrabCassino\\cassino-projeto\\SorrisoDaFortuna\\sorrisodafortuna\\forms\\formnumbichos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{031A3E94-01FD-4CF9-8259-C8549D669285}|SorrisoDaFortuna\\SorrisoDaFortuna.csproj|solutionrelative:sorrisodafortuna\\forms\\formnumbichos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{031A3E94-01FD-4CF9-8259-C8549D669285}|SorrisoDaFortuna\\SorrisoDaFortuna.csproj|C:\\Users\\guilh\\JS\\TrabCassino\\cassino-projeto\\SorrisoDaFortuna\\sorrisodafortuna\\forms\\formbicho.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{031A3E94-01FD-4CF9-8259-C8549D669285}|SorrisoDaFortuna\\SorrisoDaFortuna.csproj|solutionrelative:sorrisodafortuna\\forms\\formbicho.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{031A3E94-01FD-4CF9-8259-C8549D669285}|SorrisoDaFortuna\\SorrisoDaFortuna.csproj|c:\\users\\guilh\\js\\trabcassino\\cassino-projeto\\sorrisodafortuna\\sorrisodafortuna\\forms\\form21.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{031A3E94-01FD-4CF9-8259-C8549D669285}|SorrisoDaFortuna\\SorrisoDaFortuna.csproj|solutionrelative:sorrisodafortuna\\forms\\form21.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{031A3E94-01FD-4CF9-8259-C8549D669285}|SorrisoDaFortuna\\SorrisoDaFortuna.csproj|c:\\users\\guilh\\js\\trabcassino\\cassino-projeto\\sorrisodafortuna\\sorrisodafortuna\\forms\\form21.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{031A3E94-01FD-4CF9-8259-C8549D669285}|SorrisoDaFortuna\\SorrisoDaFortuna.csproj|C:\\Users\\Usuario\\Documents\\Tarb_Cassino\\cassino\\sorrisodafortuna\\forms\\form21.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{031A3E94-01FD-4CF9-8259-C8549D669285}|SorrisoDaFortuna\\SorrisoDaFortuna.csproj|solutionrelative:sorrisodafortuna\\forms\\form21.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{031A3E94-01FD-4CF9-8259-C8549D669285}|SorrisoDaFortuna\\SorrisoDaFortuna.csproj|C:\\Users\\guilh\\JS\\TrabCassino\\cassino-projeto\\SorrisoDaFortuna\\sorrisodafortuna\\forms\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{031A3E94-01FD-4CF9-8259-C8549D669285}|SorrisoDaFortuna\\SorrisoDaFortuna.csproj|c:\\users\\usuario\\documents\\tarb_cassino\\cassino\\sorrisodafortuna\\forms\\formbicho.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{031A3E94-01FD-4CF9-8259-C8549D669285}|SorrisoDaFortuna\\SorrisoDaFortuna.csproj|solutionrelative:sorrisodafortuna\\forms\\formbicho.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{031A3E94-01FD-4CF9-8259-C8549D669285}|SorrisoDaFortuna\\SorrisoDaFortuna.csproj|C:\\Users\\Usuario\\Documents\\Tarb_Cassino\\cassino\\sorrisodafortuna\\forms\\form21.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{031A3E94-01FD-4CF9-8259-C8549D669285}|SorrisoDaFortuna\\SorrisoDaFortuna.csproj|solutionrelative:sorrisodafortuna\\forms\\form21.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{031A3E94-01FD-4CF9-8259-C8549D669285}|SorrisoDaFortuna\\SorrisoDaFortuna.csproj|c:\\users\\usuario\\documents\\tarb_cassino\\cassino\\sorrisodafortuna\\forms\\form21.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{031A3E94-01FD-4CF9-8259-C8549D669285}|SorrisoDaFortuna\\SorrisoDaFortuna.csproj|solutionrelative:sorrisodafortuna\\forms\\form21.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{031A3E94-01FD-4CF9-8259-C8549D669285}|SorrisoDaFortuna\\SorrisoDaFortuna.csproj|C:\\Users\\Usuario\\Documents\\Tarb_Cassino\\cassino\\sorrisodafortuna\\forms\\formnumbichos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{031A3E94-01FD-4CF9-8259-C8549D669285}|SorrisoDaFortuna\\SorrisoDaFortuna.csproj|solutionrelative:sorrisodafortuna\\forms\\formnumbichos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{031A3E94-01FD-4CF9-8259-C8549D669285}|SorrisoDaFortuna\\SorrisoDaFortuna.csproj|C:\\Users\\Usuario\\Documents\\Tarb_Cassino\\cassino\\sorrisodafortuna\\forms\\formbicho.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{031A3E94-01FD-4CF9-8259-C8549D669285}|SorrisoDaFortuna\\SorrisoDaFortuna.csproj|solutionrelative:sorrisodafortuna\\forms\\formbicho.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{031A3E94-01FD-4CF9-8259-C8549D669285}|SorrisoDaFortuna\\SorrisoDaFortuna.csproj|C:\\Users\\Usuario\\Documents\\Tarb_Cassino\\cassino\\sorrisodafortuna\\forms\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{031A3E94-01FD-4CF9-8259-C8549D669285}|SorrisoDaFortuna\\SorrisoDaFortuna.csproj|solutionrelative:sorrisodafortuna\\forms\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{031A3E94-01FD-4CF9-8259-C8549D669285}|SorrisoDaFortuna\\SorrisoDaFortuna.csproj|C:\\Users\\guilh\\JS\\TrabCassino\\cassino-projeto\\SorrisoDaFortuna\\sorrisodafortuna\\forms\\formlogin.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{031A3E94-01FD-4CF9-8259-C8549D669285}|SorrisoDaFortuna\\SorrisoDaFortuna.csproj|C:\\Users\\Usuario\\Documents\\Tarb_Cassino\\cassino\\sorrisodafortuna\\forms\\formlogin.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{031A3E94-01FD-4CF9-8259-C8549D669285}|SorrisoDaFortuna\\SorrisoDaFortuna.csproj|solutionrelative:sorrisodafortuna\\forms\\formlogin.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{031A3E94-01FD-4CF9-8259-C8549D669285}|SorrisoDaFortuna\\SorrisoDaFortuna.csproj|C:\\Users\\guilh\\JS\\TrabCassino\\cassino-projeto\\SorrisoDaFortuna\\sorrisodafortuna\\entidade\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{031A3E94-01FD-4CF9-8259-C8549D669285}|SorrisoDaFortuna\\SorrisoDaFortuna.csproj|C:\\Users\\Usuario\\Documents\\Tarb_Cassino\\cassino\\sorrisodafortuna\\entidade\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{031A3E94-01FD-4CF9-8259-C8549D669285}|SorrisoDaFortuna\\SorrisoDaFortuna.csproj|solutionrelative:sorrisodafortuna\\entidade\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{031A3E94-01FD-4CF9-8259-C8549D669285}|SorrisoDaFortuna\\SorrisoDaFortuna.csproj|C:\\Users\\guilh\\JS\\TrabCassino\\cassino-projeto\\SorrisoDaFortuna\\sorrisodafortuna\\forms\\formslotmachine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{031A3E94-01FD-4CF9-8259-C8549D669285}|SorrisoDaFortuna\\SorrisoDaFortuna.csproj|C:\\Users\\Usuario\\Documents\\Tarb_Cassino\\cassino\\sorrisodafortuna\\forms\\formslotmachine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{031A3E94-01FD-4CF9-8259-C8549D669285}|SorrisoDaFortuna\\SorrisoDaFortuna.csproj|solutionrelative:sorrisodafortuna\\forms\\formslotmachine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{031A3E94-01FD-4CF9-8259-C8549D669285}|SorrisoDaFortuna\\SorrisoDaFortuna.csproj|C:\\Users\\guilh\\JS\\TrabCassino\\cassino-projeto\\SorrisoDaFortuna\\sorrisodafortuna\\forms\\formnumbichos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{031A3E94-01FD-4CF9-8259-C8549D669285}|SorrisoDaFortuna\\SorrisoDaFortuna.csproj|C:\\Users\\Usuario\\Documents\\Tarb_Cassino\\cassino\\sorrisodafortuna\\forms\\formnumbichos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{031A3E94-01FD-4CF9-8259-C8549D669285}|SorrisoDaFortuna\\SorrisoDaFortuna.csproj|solutionrelative:sorrisodafortuna\\forms\\formnumbichos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{031A3E94-01FD-4CF9-8259-C8549D669285}|SorrisoDaFortuna\\SorrisoDaFortuna.csproj|C:\\Users\\guilh\\JS\\TrabCassino\\cassino-projeto\\SorrisoDaFortuna\\sorrisodafortuna\\forms\\formnumbichos.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{031A3E94-01FD-4CF9-8259-C8549D669285}|SorrisoDaFortuna\\SorrisoDaFortuna.csproj|C:\\Users\\Usuario\\Documents\\Tarb_Cassino\\cassino\\sorrisodafortuna\\forms\\formnumbichos.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{031A3E94-01FD-4CF9-8259-C8549D669285}|SorrisoDaFortuna\\SorrisoDaFortuna.csproj|solutionrelative:sorrisodafortuna\\forms\\formnumbichos.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{031A3E94-01FD-4CF9-8259-C8549D669285}|SorrisoDaFortuna\\SorrisoDaFortuna.csproj|C:\\Users\\guilh\\JS\\TrabCassino\\cassino-projeto\\SorrisoDaFortuna\\sorrisodafortuna\\forms\\formslotmachine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{031A3E94-01FD-4CF9-8259-C8549D669285}|SorrisoDaFortuna\\SorrisoDaFortuna.csproj|C:\\Users\\Usuario\\Documents\\Tarb_Cassino\\cassino\\sorrisodafortuna\\forms\\formslotmachine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{031A3E94-01FD-4CF9-8259-C8549D669285}|SorrisoDaFortuna\\SorrisoDaFortuna.csproj|solutionrelative:sorrisodafortuna\\forms\\formslotmachine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{031A3E94-01FD-4CF9-8259-C8549D669285}|SorrisoDaFortuna\\SorrisoDaFortuna.csproj|C:\\Users\\guilh\\JS\\TrabCassino\\cassino-projeto\\SorrisoDaFortuna\\sorrisodafortuna\\forms\\formbicho.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{031A3E94-01FD-4CF9-8259-C8549D669285}|SorrisoDaFortuna\\SorrisoDaFortuna.csproj|C:\\Users\\Usuario\\Documents\\Tarb_Cassino\\cassino\\sorrisodafortuna\\forms\\formbicho.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{031A3E94-01FD-4CF9-8259-C8549D669285}|SorrisoDaFortuna\\SorrisoDaFortuna.csproj|solutionrelative:sorrisodafortuna\\forms\\formbicho.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{031A3E94-01FD-4CF9-8259-C8549D669285}|SorrisoDaFortuna\\SorrisoDaFortuna.csproj|C:\\Users\\guilh\\JS\\TrabCassino\\cassino-projeto\\SorrisoDaFortuna\\sorrisodafortuna\\forms\\formslotmachine.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{031A3E94-01FD-4CF9-8259-C8549D669285}|SorrisoDaFortuna\\SorrisoDaFortuna.csproj|C:\\Users\\Usuario\\Documents\\Tarb_Cassino\\cassino\\sorrisodafortuna\\forms\\formslotmachine.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{031A3E94-01FD-4CF9-8259-C8549D669285}|SorrisoDaFortuna\\SorrisoDaFortuna.csproj|solutionrelative:sorrisodafortuna\\forms\\formslotmachine.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{031A3E94-01FD-4CF9-8259-C8549D669285}|SorrisoDaFortuna\\SorrisoDaFortuna.csproj|C:\\Users\\guilh\\JS\\TrabCassino\\cassino-projeto\\SorrisoDaFortuna\\sorrisodafortuna\\forms\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{031A3E94-01FD-4CF9-8259-C8549D669285}|SorrisoDaFortuna\\SorrisoDaFortuna.csproj|C:\\Users\\Usuario\\Documents\\Tarb_Cassino\\cassino\\sorrisodafortuna\\forms\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{031A3E94-01FD-4CF9-8259-C8549D669285}|SorrisoDaFortuna\\SorrisoDaFortuna.csproj|solutionrelative:sorrisodafortuna\\forms\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{031A3E94-01FD-4CF9-8259-C8549D669285}|SorrisoDaFortuna\\SorrisoDaFortuna.csproj|C:\\Users\\guilh\\JS\\TrabCassino\\cassino-projeto\\SorrisoDaFortuna\\sorrisodafortuna\\forms\\mainform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{031A3E94-01FD-4CF9-8259-C8549D669285}|SorrisoDaFortuna\\SorrisoDaFortuna.csproj|C:\\Users\\Usuario\\Documents\\Tarb_Cassino\\cassino\\sorrisodafortuna\\forms\\mainform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{031A3E94-01FD-4CF9-8259-C8549D669285}|SorrisoDaFortuna\\SorrisoDaFortuna.csproj|solutionrelative:sorrisodafortuna\\forms\\mainform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{031A3E94-01FD-4CF9-8259-C8549D669285}|SorrisoDaFortuna\\SorrisoDaFortuna.csproj|C:\\Users\\guilh\\JS\\TrabCassino\\cassino-projeto\\SorrisoDaFortuna\\sorrisodafortuna\\forms\\formdeposito.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{031A3E94-01FD-4CF9-8259-C8549D669285}|SorrisoDaFortuna\\SorrisoDaFortuna.csproj|C:\\Users\\Usuario\\Documents\\Tarb_Cassino\\cassino\\sorrisodafortuna\\forms\\formdeposito.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{031A3E94-01FD-4CF9-8259-C8549D669285}|SorrisoDaFortuna\\SorrisoDaFortuna.csproj|solutionrelative:sorrisodafortuna\\forms\\formdeposito.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{031A3E94-01FD-4CF9-8259-C8549D669285}|SorrisoDaFortuna\\SorrisoDaFortuna.csproj|C:\\Users\\guilh\\JS\\TrabCassino\\cassino-projeto\\SorrisoDaFortuna\\sorrisodafortuna\\forms\\formdeposito.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{031A3E94-01FD-4CF9-8259-C8549D669285}|SorrisoDaFortuna\\SorrisoDaFortuna.csproj|C:\\Users\\Usuario\\Documents\\Tarb_Cassino\\cassino\\sorrisodafortuna\\forms\\formdeposito.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{031A3E94-01FD-4CF9-8259-C8549D669285}|SorrisoDaFortuna\\SorrisoDaFortuna.csproj|solutionrelative:sorrisodafortuna\\forms\\formdeposito.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{031A3E94-01FD-4CF9-8259-C8549D669285}|SorrisoDaFortuna\\SorrisoDaFortuna.csproj|C:\\Users\\guilh\\JS\\TrabCassino\\cassino-projeto\\SorrisoDaFortuna\\sorrisodafortuna\\forms\\formcadastro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{031A3E94-01FD-4CF9-8259-C8549D669285}|SorrisoDaFortuna\\SorrisoDaFortuna.csproj|C:\\Users\\Usuario\\Documents\\Tarb_Cassino\\cassino\\sorrisodafortuna\\forms\\formcadastro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{031A3E94-01FD-4CF9-8259-C8549D669285}|SorrisoDaFortuna\\SorrisoDaFortuna.csproj|solutionrelative:sorrisodafortuna\\forms\\formcadastro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{031A3E94-01FD-4CF9-8259-C8549D669285}|SorrisoDaFortuna\\SorrisoDaFortuna.csproj|C:\\Users\\guilh\\JS\\TrabCassino\\cassino-projeto\\SorrisoDaFortuna\\sorrisodafortuna\\forms\\formlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{031A3E94-01FD-4CF9-8259-C8549D669285}|SorrisoDaFortuna\\SorrisoDaFortuna.csproj|C:\\Users\\Usuario\\Documents\\Tarb_Cassino\\cassino\\sorrisodafortuna\\forms\\formlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{031A3E94-01FD-4CF9-8259-C8549D669285}|SorrisoDaFortuna\\SorrisoDaFortuna.csproj|solutionrelative:sorrisodafortuna\\forms\\formlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{031A3E94-01FD-4CF9-8259-C8549D669285}|SorrisoDaFortuna\\SorrisoDaFortuna.csproj|C:\\Users\\guilh\\JS\\TrabCassino\\cassino-projeto\\SorrisoDaFortuna\\sorrisodafortuna\\forms\\formcadastro.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{031A3E94-01FD-4CF9-8259-C8549D669285}|SorrisoDaFortuna\\SorrisoDaFortuna.csproj|C:\\Users\\Usuario\\Documents\\Tarb_Cassino\\cassino\\sorrisodafortuna\\forms\\formcadastro.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{031A3E94-01FD-4CF9-8259-C8549D669285}|SorrisoDaFortuna\\SorrisoDaFortuna.csproj|solutionrelative:sorrisodafortuna\\forms\\formcadastro.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{031A3E94-01FD-4CF9-8259-C8549D669285}|SorrisoDaFortuna\\SorrisoDaFortuna.csproj|C:\\Users\\guilh\\JS\\TrabCassino\\cassino-projeto\\SorrisoDaFortuna\\sorrisodafortuna\\repo\\usuariorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{031A3E94-01FD-4CF9-8259-C8549D669285}|SorrisoDaFortuna\\SorrisoDaFortuna.csproj|C:\\Users\\Usuario\\Documents\\Tarb_Cassino\\cassino\\sorrisodafortuna\\repo\\usuariorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{031A3E94-01FD-4CF9-8259-C8549D669285}|SorrisoDaFortuna\\SorrisoDaFortuna.csproj|solutionrelative:sorrisodafortuna\\repo\\usuariorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{031A3E94-01FD-4CF9-8259-C8549D669285}|SorrisoDaFortuna\\SorrisoDaFortuna.csproj|C:\\Users\\guilh\\JS\\TrabCassino\\cassino-projeto\\SorrisoDaFortuna\\sorrisodafortuna\\forms\\formdeposito.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{031A3E94-01FD-4CF9-8259-C8549D669285}|SorrisoDaFortuna\\SorrisoDaFortuna.csproj|C:\\Users\\Usuario\\Documents\\Tarb_Cassino\\cassino\\sorrisodafortuna\\forms\\formdeposito.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{031A3E94-01FD-4CF9-8259-C8549D669285}|SorrisoDaFortuna\\SorrisoDaFortuna.csproj|solutionrelative:sorrisodafortuna\\forms\\formdeposito.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Usuario\\Documents\\Tarb_Cassino\\cassino\\sorrisodafortuna\\form21.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Usuario\\Documents\\Tarb_Cassino\\cassino\\sorrisodafortuna\\form21.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:sorrisodafortuna\\form21.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Usuario\\Documents\\Tarb_Cassino\\cassino\\SorrisoDaFortuna\\FormDeposito.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Usuario\\Documents\\Tarb_Cassino\\cassino\\SorrisoDaFortuna\\FormDeposito.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:SorrisoDaFortuna\\FormDeposito.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Usuario\\Documents\\Tarb_Cassino\\cassino\\SorrisoDaFortuna\\Form21.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Usuario\\Documents\\Tarb_Cassino\\cassino\\SorrisoDaFortuna\\Form21.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:SorrisoDaFortuna\\Form21.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Usuario\\Documents\\Tarb_Cassino\\cassino\\sorrisodafortuna\\formnumbichos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Usuario\\Documents\\Tarb_Cassino\\cassino\\sorrisodafortuna\\formnumbichos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:sorrisodafortuna\\formnumbichos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Usuario\\Documents\\Tarb_Cassino\\cassino\\SorrisoDaFortuna\\FormTigrinho.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Usuario\\Documents\\Tarb_Cassino\\cassino\\SorrisoDaFortuna\\FormTigrinho.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:SorrisoDaFortuna\\FormTigrinho.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Usuario\\Documents\\Tarb_Cassino\\cassino\\SorrisoDaFortuna\\FormNumBichos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Usuario\\Documents\\Tarb_Cassino\\cassino\\SorrisoDaFortuna\\FormNumBichos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:SorrisoDaFortuna\\FormNumBichos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Usuario\\Documents\\Tarb_Cassino\\cassino\\sorrisodafortuna\\formtigrinho.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Usuario\\Documents\\Tarb_Cassino\\cassino\\sorrisodafortuna\\formtigrinho.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:sorrisodafortuna\\formtigrinho.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Usuario\\Documents\\Tarb_Cassino\\cassino\\SorrisoDaFortuna\\FormLogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Usuario\\Documents\\Tarb_Cassino\\cassino\\SorrisoDaFortuna\\FormLogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:SorrisoDaFortuna\\FormLogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Usuario\\Documents\\Tarb_Cassino\\cassino\\sorrisodafortuna\\formcadastro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Usuario\\Documents\\Tarb_Cassino\\cassino\\sorrisodafortuna\\formcadastro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:sorrisodafortuna\\formcadastro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Usuario\\Documents\\Tarb_Cassino\\cassino\\sorrisodafortuna\\formdeposito.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Usuario\\Documents\\Tarb_Cassino\\cassino\\sorrisodafortuna\\formdeposito.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:sorrisodafortuna\\formdeposito.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Usuario\\Documents\\Tarb_Cassino\\cassino\\SorrisoDaFortuna\\UsuarioRepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Usuario\\Documents\\Tarb_Cassino\\cassino\\SorrisoDaFortuna\\UsuarioRepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:SorrisoDaFortuna\\UsuarioRepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -135,17 +150,17 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 0,
               "Title": "Form21.cs",
-              "DocumentMoniker": "C:\\Users\\guilh\\JS\\TrabCassino\\cassino-projeto\\SorrisoDaFortuna\\SorrisoDaFortuna\\Forms\\Form21.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\Tarb_Cassino\\cassino\\SorrisoDaFortuna\\Forms\\Form21.cs",
               "RelativeDocumentMoniker": "SorrisoDaFortuna\\Forms\\Form21.cs",
-              "ToolTip": "C:\\Users\\guilh\\JS\\TrabCassino\\cassino-projeto\\SorrisoDaFortuna\\SorrisoDaFortuna\\Forms\\Form21.cs",
-              "RelativeToolTip": "SorrisoDaFortuna\\Forms\\Form21.cs",
-              "ViewState": "AgIAAEEAAAAAAAAAAAAgwCcAAAAIAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\Usuario\\Documents\\Tarb_Cassino\\cassino\\SorrisoDaFortuna\\Forms\\Form21.cs*",
+              "RelativeToolTip": "SorrisoDaFortuna\\Forms\\Form21.cs*",
+              "ViewState": "AgIAAIgAAAAAAAAAAAAqwKUAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-12-05T00:22:44.777Z",
               "IsPinned": true,
@@ -153,12 +168,12 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "Form21.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\guilh\\JS\\TrabCassino\\cassino-projeto\\SorrisoDaFortuna\\SorrisoDaFortuna\\Forms\\Form21.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\Tarb_Cassino\\cassino\\SorrisoDaFortuna\\Forms\\Form21.cs",
               "RelativeDocumentMoniker": "SorrisoDaFortuna\\Forms\\Form21.cs",
-              "ToolTip": "C:\\Users\\guilh\\JS\\TrabCassino\\cassino-projeto\\SorrisoDaFortuna\\SorrisoDaFortuna\\Forms\\Form21.cs [Design]",
-              "RelativeToolTip": "SorrisoDaFortuna\\Forms\\Form21.cs [Design]",
+              "ToolTip": "C:\\Users\\Usuario\\Documents\\Tarb_Cassino\\cassino\\SorrisoDaFortuna\\Forms\\Form21.cs [Design]*",
+              "RelativeToolTip": "SorrisoDaFortuna\\Forms\\Form21.cs [Design]*",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-12-05T00:23:32.43Z",
               "IsPinned": true,
@@ -166,201 +181,230 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "MainForm.cs",
-              "DocumentMoniker": "C:\\Users\\guilh\\JS\\TrabCassino\\cassino-projeto\\SorrisoDaFortuna\\SorrisoDaFortuna\\Forms\\MainForm.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\Tarb_Cassino\\cassino\\SorrisoDaFortuna\\Forms\\MainForm.cs",
               "RelativeDocumentMoniker": "SorrisoDaFortuna\\Forms\\MainForm.cs",
-              "ToolTip": "C:\\Users\\guilh\\JS\\TrabCassino\\cassino-projeto\\SorrisoDaFortuna\\SorrisoDaFortuna\\Forms\\MainForm.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Documents\\Tarb_Cassino\\cassino\\SorrisoDaFortuna\\Forms\\MainForm.cs",
               "RelativeToolTip": "SorrisoDaFortuna\\Forms\\MainForm.cs",
               "ViewState": "AgIAABsAAAAAAAAAAAAYwDsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-12-03T18:09:38.46Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:131:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{fabf9319-47eb-497e-b8f6-d9f73fba5f55}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "FormNumBichos.cs",
-              "DocumentMoniker": "C:\\Users\\guilh\\JS\\TrabCassino\\cassino-projeto\\SorrisoDaFortuna\\SorrisoDaFortuna\\Forms\\FormNumBichos.cs",
-              "RelativeDocumentMoniker": "SorrisoDaFortuna\\Forms\\FormNumBichos.cs",
-              "ToolTip": "C:\\Users\\guilh\\JS\\TrabCassino\\cassino-projeto\\SorrisoDaFortuna\\SorrisoDaFortuna\\Forms\\FormNumBichos.cs",
-              "RelativeToolTip": "SorrisoDaFortuna\\Forms\\FormNumBichos.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAAB4AAAAAAAAAAAAAAA==",
+              "DocumentIndex": 8,
+              "Title": "Usuario.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\Tarb_Cassino\\cassino\\SorrisoDaFortuna\\Entidade\\Usuario.cs",
+              "RelativeDocumentMoniker": "SorrisoDaFortuna\\Entidade\\Usuario.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Documents\\Tarb_Cassino\\cassino\\SorrisoDaFortuna\\Entidade\\Usuario.cs",
+              "RelativeToolTip": "SorrisoDaFortuna\\Entidade\\Usuario.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-04T23:48:35.878Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "FormBicho.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\guilh\\JS\\TrabCassino\\cassino-projeto\\SorrisoDaFortuna\\SorrisoDaFortuna\\Forms\\FormBicho.cs",
-              "RelativeDocumentMoniker": "SorrisoDaFortuna\\Forms\\FormBicho.cs",
-              "ToolTip": "C:\\Users\\guilh\\JS\\TrabCassino\\cassino-projeto\\SorrisoDaFortuna\\SorrisoDaFortuna\\Forms\\FormBicho.cs [Design]*",
-              "RelativeToolTip": "SorrisoDaFortuna\\Forms\\FormBicho.cs [Design]*",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-04T23:36:59.014Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2025-12-04T23:15:02.439Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 7,
-              "Title": "Usuario.cs",
-              "DocumentMoniker": "C:\\Users\\guilh\\JS\\TrabCassino\\cassino-projeto\\SorrisoDaFortuna\\SorrisoDaFortuna\\Entidade\\Usuario.cs",
-              "RelativeDocumentMoniker": "SorrisoDaFortuna\\Entidade\\Usuario.cs",
-              "ToolTip": "C:\\Users\\guilh\\JS\\TrabCassino\\cassino-projeto\\SorrisoDaFortuna\\SorrisoDaFortuna\\Entidade\\Usuario.cs",
-              "RelativeToolTip": "SorrisoDaFortuna\\Entidade\\Usuario.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAWAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-04T23:15:02.439Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
               "Title": "FormLogin.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\guilh\\JS\\TrabCassino\\cassino-projeto\\SorrisoDaFortuna\\SorrisoDaFortuna\\Forms\\FormLogin.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\Tarb_Cassino\\cassino\\SorrisoDaFortuna\\Forms\\FormLogin.Designer.cs",
               "RelativeDocumentMoniker": "SorrisoDaFortuna\\Forms\\FormLogin.Designer.cs",
-              "ToolTip": "C:\\Users\\guilh\\JS\\TrabCassino\\cassino-projeto\\SorrisoDaFortuna\\SorrisoDaFortuna\\Forms\\FormLogin.Designer.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Documents\\Tarb_Cassino\\cassino\\SorrisoDaFortuna\\Forms\\FormLogin.Designer.cs",
               "RelativeToolTip": "SorrisoDaFortuna\\Forms\\FormLogin.Designer.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAxAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-04T23:27:10.732Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-04T23:27:10.732Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "FormBicho.cs",
-              "DocumentMoniker": "C:\\Users\\guilh\\JS\\TrabCassino\\cassino-projeto\\SorrisoDaFortuna\\SorrisoDaFortuna\\Forms\\FormBicho.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\Tarb_Cassino\\cassino\\SorrisoDaFortuna\\Forms\\FormBicho.cs",
               "RelativeDocumentMoniker": "SorrisoDaFortuna\\Forms\\FormBicho.cs",
-              "ToolTip": "C:\\Users\\guilh\\JS\\TrabCassino\\cassino-projeto\\SorrisoDaFortuna\\SorrisoDaFortuna\\Forms\\FormBicho.cs*",
-              "RelativeToolTip": "SorrisoDaFortuna\\Forms\\FormBicho.cs*",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAkwBsAAAAJAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\Usuario\\Documents\\Tarb_Cassino\\cassino\\SorrisoDaFortuna\\Forms\\FormBicho.cs",
+              "RelativeToolTip": "SorrisoDaFortuna\\Forms\\FormBicho.cs",
+              "ViewState": "AgIAAG8AAAAAAAAAAADwv4kAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-12-04T23:09:29.778Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "FormSlotMachine.cs",
-              "DocumentMoniker": "C:\\Users\\guilh\\JS\\TrabCassino\\cassino-projeto\\SorrisoDaFortuna\\SorrisoDaFortuna\\Forms\\FormSlotMachine.cs",
-              "RelativeDocumentMoniker": "SorrisoDaFortuna\\Forms\\FormSlotMachine.cs",
-              "ToolTip": "C:\\Users\\guilh\\JS\\TrabCassino\\cassino-projeto\\SorrisoDaFortuna\\SorrisoDaFortuna\\Forms\\FormSlotMachine.cs",
-              "RelativeToolTip": "SorrisoDaFortuna\\Forms\\FormSlotMachine.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAAAwwJIAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 3,
+              "Title": "Form21.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\Tarb_Cassino\\cassino\\SorrisoDaFortuna\\Forms\\Form21.Designer.cs",
+              "RelativeDocumentMoniker": "SorrisoDaFortuna\\Forms\\Form21.Designer.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Documents\\Tarb_Cassino\\cassino\\SorrisoDaFortuna\\Forms\\Form21.Designer.cs",
+              "RelativeToolTip": "SorrisoDaFortuna\\Forms\\Form21.Designer.cs",
+              "ViewState": "AgIAAOwAAAAAAAAAAAAqwAsBAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-04T23:07:48.215Z",
+              "WhenOpened": "2025-12-05T01:36:30.171Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "FormBicho.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\Tarb_Cassino\\cassino\\SorrisoDaFortuna\\Forms\\FormBicho.cs",
+              "RelativeDocumentMoniker": "SorrisoDaFortuna\\Forms\\FormBicho.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Documents\\Tarb_Cassino\\cassino\\SorrisoDaFortuna\\Forms\\FormBicho.cs [Design]",
+              "RelativeToolTip": "SorrisoDaFortuna\\Forms\\FormBicho.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-04T23:36:59.014Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "FormNumBichos.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\Tarb_Cassino\\cassino\\SorrisoDaFortuna\\Forms\\FormNumBichos.cs",
+              "RelativeDocumentMoniker": "SorrisoDaFortuna\\Forms\\FormNumBichos.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Documents\\Tarb_Cassino\\cassino\\SorrisoDaFortuna\\Forms\\FormNumBichos.cs",
+              "RelativeToolTip": "SorrisoDaFortuna\\Forms\\FormNumBichos.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAB4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-04T23:48:35.878Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 9,
-              "Title": "FormNumBichos.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\guilh\\JS\\TrabCassino\\cassino-projeto\\SorrisoDaFortuna\\SorrisoDaFortuna\\Forms\\FormNumBichos.cs",
-              "RelativeDocumentMoniker": "SorrisoDaFortuna\\Forms\\FormNumBichos.cs",
-              "ToolTip": "C:\\Users\\guilh\\JS\\TrabCassino\\cassino-projeto\\SorrisoDaFortuna\\SorrisoDaFortuna\\Forms\\FormNumBichos.cs [Design]",
-              "RelativeToolTip": "SorrisoDaFortuna\\Forms\\FormNumBichos.cs [Design]",
+              "Title": "FormSlotMachine.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\Tarb_Cassino\\cassino\\SorrisoDaFortuna\\Forms\\FormSlotMachine.cs",
+              "RelativeDocumentMoniker": "SorrisoDaFortuna\\Forms\\FormSlotMachine.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Documents\\Tarb_Cassino\\cassino\\SorrisoDaFortuna\\Forms\\FormSlotMachine.cs",
+              "RelativeToolTip": "SorrisoDaFortuna\\Forms\\FormSlotMachine.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAwwJIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-04T23:46:42.758Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2025-12-04T23:07:48.215Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 10,
-              "Title": "FormNumBichos.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\guilh\\JS\\TrabCassino\\cassino-projeto\\SorrisoDaFortuna\\SorrisoDaFortuna\\Forms\\FormNumBichos.Designer.cs",
-              "RelativeDocumentMoniker": "SorrisoDaFortuna\\Forms\\FormNumBichos.Designer.cs",
-              "ToolTip": "C:\\Users\\guilh\\JS\\TrabCassino\\cassino-projeto\\SorrisoDaFortuna\\SorrisoDaFortuna\\Forms\\FormNumBichos.Designer.cs",
-              "RelativeToolTip": "SorrisoDaFortuna\\Forms\\FormNumBichos.Designer.cs",
-              "ViewState": "AgIAADUAAAAAAAAAAAAYwGUAAAABAAAAAAAAAA==",
+              "Title": "FormNumBichos.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\Tarb_Cassino\\cassino\\SorrisoDaFortuna\\Forms\\FormNumBichos.cs",
+              "RelativeDocumentMoniker": "SorrisoDaFortuna\\Forms\\FormNumBichos.cs",
+              "ToolTip": "C:\\Users\\guilh\\JS\\TrabCassino\\cassino-projeto\\SorrisoDaFortuna\\SorrisoDaFortuna\\Forms\\FormNumBichos.cs [Design]",
+              "RelativeToolTip": "..\\..\\..\\..\\guilh\\JS\\TrabCassino\\cassino-projeto\\SorrisoDaFortuna\\SorrisoDaFortuna\\Forms\\FormNumBichos.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-04T23:46:46.723Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-04T23:46:42.758Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 11,
-              "Title": "FormSlotMachine.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\guilh\\JS\\TrabCassino\\cassino-projeto\\SorrisoDaFortuna\\SorrisoDaFortuna\\Forms\\FormSlotMachine.cs",
-              "RelativeDocumentMoniker": "SorrisoDaFortuna\\Forms\\FormSlotMachine.cs",
-              "ToolTip": "C:\\Users\\guilh\\JS\\TrabCassino\\cassino-projeto\\SorrisoDaFortuna\\SorrisoDaFortuna\\Forms\\FormSlotMachine.cs [Design]",
-              "RelativeToolTip": "SorrisoDaFortuna\\Forms\\FormSlotMachine.cs [Design]",
+              "Title": "FormNumBichos.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\Tarb_Cassino\\cassino\\SorrisoDaFortuna\\Forms\\FormNumBichos.Designer.cs",
+              "RelativeDocumentMoniker": "SorrisoDaFortuna\\Forms\\FormNumBichos.Designer.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Documents\\Tarb_Cassino\\cassino\\SorrisoDaFortuna\\Forms\\FormNumBichos.Designer.cs",
+              "RelativeToolTip": "SorrisoDaFortuna\\Forms\\FormNumBichos.Designer.cs",
+              "ViewState": "AgIAADUAAAAAAAAAAAAYwGUAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-04T23:23:23.053Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2025-12-04T23:46:46.723Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 12,
-              "Title": "FormBicho.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\guilh\\JS\\TrabCassino\\cassino-projeto\\SorrisoDaFortuna\\SorrisoDaFortuna\\Forms\\FormBicho.Designer.cs",
-              "RelativeDocumentMoniker": "SorrisoDaFortuna\\Forms\\FormBicho.Designer.cs",
-              "ToolTip": "C:\\Users\\guilh\\JS\\TrabCassino\\cassino-projeto\\SorrisoDaFortuna\\SorrisoDaFortuna\\Forms\\FormBicho.Designer.cs",
-              "RelativeToolTip": "SorrisoDaFortuna\\Forms\\FormBicho.Designer.cs",
-              "ViewState": "AgIAALQAAAAAAAAAAAAYwNYAAAABAAAAAAAAAA==",
+              "Title": "FormSlotMachine.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\Tarb_Cassino\\cassino\\SorrisoDaFortuna\\Forms\\FormSlotMachine.cs",
+              "RelativeDocumentMoniker": "SorrisoDaFortuna\\Forms\\FormSlotMachine.cs",
+              "ToolTip": "C:\\Users\\guilh\\JS\\TrabCassino\\cassino-projeto\\SorrisoDaFortuna\\SorrisoDaFortuna\\Forms\\FormSlotMachine.cs [Design]",
+              "RelativeToolTip": "..\\..\\..\\..\\guilh\\JS\\TrabCassino\\cassino-projeto\\SorrisoDaFortuna\\SorrisoDaFortuna\\Forms\\FormSlotMachine.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-04T23:40:39.013Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-04T23:23:23.053Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 13,
-              "Title": "FormSlotMachine.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\guilh\\JS\\TrabCassino\\cassino-projeto\\SorrisoDaFortuna\\SorrisoDaFortuna\\Forms\\FormSlotMachine.Designer.cs",
-              "RelativeDocumentMoniker": "SorrisoDaFortuna\\Forms\\FormSlotMachine.Designer.cs",
-              "ToolTip": "C:\\Users\\guilh\\JS\\TrabCassino\\cassino-projeto\\SorrisoDaFortuna\\SorrisoDaFortuna\\Forms\\FormSlotMachine.Designer.cs",
-              "RelativeToolTip": "SorrisoDaFortuna\\Forms\\FormSlotMachine.Designer.cs",
-              "ViewState": "AgIAAIUAAAAAAAAAAAAYwKYAAAABAAAAAAAAAA==",
+              "Title": "FormBicho.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\Tarb_Cassino\\cassino\\SorrisoDaFortuna\\Forms\\FormBicho.Designer.cs",
+              "RelativeDocumentMoniker": "SorrisoDaFortuna\\Forms\\FormBicho.Designer.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Documents\\Tarb_Cassino\\cassino\\SorrisoDaFortuna\\Forms\\FormBicho.Designer.cs",
+              "RelativeToolTip": "SorrisoDaFortuna\\Forms\\FormBicho.Designer.cs",
+              "ViewState": "AgIAALQAAAAAAAAAAAAYwNYAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-04T23:07:31.537Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-04T23:40:39.013Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 14,
-              "Title": "MainForm.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\guilh\\JS\\TrabCassino\\cassino-projeto\\SorrisoDaFortuna\\SorrisoDaFortuna\\Forms\\MainForm.cs",
-              "RelativeDocumentMoniker": "SorrisoDaFortuna\\Forms\\MainForm.cs",
-              "ToolTip": "C:\\Users\\guilh\\JS\\TrabCassino\\cassino-projeto\\SorrisoDaFortuna\\SorrisoDaFortuna\\Forms\\MainForm.cs [Design]",
-              "RelativeToolTip": "SorrisoDaFortuna\\Forms\\MainForm.cs [Design]",
+              "Title": "FormSlotMachine.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\Tarb_Cassino\\cassino\\SorrisoDaFortuna\\Forms\\FormSlotMachine.Designer.cs",
+              "RelativeDocumentMoniker": "SorrisoDaFortuna\\Forms\\FormSlotMachine.Designer.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Documents\\Tarb_Cassino\\cassino\\SorrisoDaFortuna\\Forms\\FormSlotMachine.Designer.cs",
+              "RelativeToolTip": "SorrisoDaFortuna\\Forms\\FormSlotMachine.Designer.cs",
+              "ViewState": "AgIAAIUAAAAAAAAAAAAYwKYAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-03T18:09:21.879Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2025-12-04T23:07:31.537Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 15,
-              "Title": "MainForm.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\guilh\\JS\\TrabCassino\\cassino-projeto\\SorrisoDaFortuna\\SorrisoDaFortuna\\Forms\\MainForm.Designer.cs",
-              "RelativeDocumentMoniker": "SorrisoDaFortuna\\Forms\\MainForm.Designer.cs",
-              "ToolTip": "C:\\Users\\guilh\\JS\\TrabCassino\\cassino-projeto\\SorrisoDaFortuna\\SorrisoDaFortuna\\Forms\\MainForm.Designer.cs",
-              "RelativeToolTip": "SorrisoDaFortuna\\Forms\\MainForm.Designer.cs",
-              "ViewState": "AgIAAI0AAAAAAAAAAAAYwK8AAAABAAAAAAAAAA==",
+              "Title": "MainForm.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\Tarb_Cassino\\cassino\\SorrisoDaFortuna\\Forms\\MainForm.cs",
+              "RelativeDocumentMoniker": "SorrisoDaFortuna\\Forms\\MainForm.cs",
+              "ToolTip": "C:\\Users\\guilh\\JS\\TrabCassino\\cassino-projeto\\SorrisoDaFortuna\\SorrisoDaFortuna\\Forms\\MainForm.cs [Design]",
+              "RelativeToolTip": "..\\..\\..\\..\\guilh\\JS\\TrabCassino\\cassino-projeto\\SorrisoDaFortuna\\SorrisoDaFortuna\\Forms\\MainForm.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-04T23:37:16.145Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-03T18:09:21.879Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 16,
+              "Title": "MainForm.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\Tarb_Cassino\\cassino\\SorrisoDaFortuna\\Forms\\MainForm.Designer.cs",
+              "RelativeDocumentMoniker": "SorrisoDaFortuna\\Forms\\MainForm.Designer.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Documents\\Tarb_Cassino\\cassino\\SorrisoDaFortuna\\Forms\\MainForm.Designer.cs",
+              "RelativeToolTip": "SorrisoDaFortuna\\Forms\\MainForm.Designer.cs",
+              "ViewState": "AgIAAI0AAAAAAAAAAAAYwK8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-04T23:37:16.145Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
               "Title": "FormDeposito.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\guilh\\JS\\TrabCassino\\cassino-projeto\\SorrisoDaFortuna\\SorrisoDaFortuna\\Forms\\FormDeposito.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\Tarb_Cassino\\cassino\\SorrisoDaFortuna\\Forms\\FormDeposito.cs",
               "RelativeDocumentMoniker": "SorrisoDaFortuna\\Forms\\FormDeposito.cs",
               "ToolTip": "C:\\Users\\Usuario\\Documents\\Tarb_Cassino\\cassino\\SorrisoDaFortuna\\Forms\\FormDeposito.cs [Design]",
-              "RelativeToolTip": "..\\..\\..\\..\\..\\Usuario\\Documents\\Tarb_Cassino\\cassino\\SorrisoDaFortuna\\Forms\\FormDeposito.cs [Design]",
+              "RelativeToolTip": "SorrisoDaFortuna\\Forms\\FormDeposito.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-12-04T23:35:37.286Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 18,
               "Title": "FormDeposito.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\guilh\\JS\\TrabCassino\\cassino-projeto\\SorrisoDaFortuna\\SorrisoDaFortuna\\Forms\\FormDeposito.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\Tarb_Cassino\\cassino\\SorrisoDaFortuna\\Forms\\FormDeposito.Designer.cs",
               "RelativeDocumentMoniker": "SorrisoDaFortuna\\Forms\\FormDeposito.Designer.cs",
-              "ToolTip": "C:\\Users\\guilh\\JS\\TrabCassino\\cassino-projeto\\SorrisoDaFortuna\\SorrisoDaFortuna\\Forms\\FormDeposito.Designer.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Documents\\Tarb_Cassino\\cassino\\SorrisoDaFortuna\\Forms\\FormDeposito.Designer.cs",
               "RelativeToolTip": "SorrisoDaFortuna\\Forms\\FormDeposito.Designer.cs",
               "ViewState": "AgIAAGgAAAAAAAAAAAAYwIsAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -368,33 +412,33 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 19,
               "Title": "FormCadastro.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\guilh\\JS\\TrabCassino\\cassino-projeto\\SorrisoDaFortuna\\SorrisoDaFortuna\\Forms\\FormCadastro.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\Tarb_Cassino\\cassino\\SorrisoDaFortuna\\Forms\\FormCadastro.cs",
               "RelativeDocumentMoniker": "SorrisoDaFortuna\\Forms\\FormCadastro.cs",
               "ToolTip": "C:\\Users\\Usuario\\Documents\\Tarb_Cassino\\cassino\\SorrisoDaFortuna\\Forms\\FormCadastro.cs [Design]",
-              "RelativeToolTip": "..\\..\\..\\..\\..\\Usuario\\Documents\\Tarb_Cassino\\cassino\\SorrisoDaFortuna\\Forms\\FormCadastro.cs [Design]",
+              "RelativeToolTip": "SorrisoDaFortuna\\Forms\\FormCadastro.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-12-04T23:33:16.407Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 20,
               "Title": "FormLogin.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\guilh\\JS\\TrabCassino\\cassino-projeto\\SorrisoDaFortuna\\SorrisoDaFortuna\\Forms\\FormLogin.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\Tarb_Cassino\\cassino\\SorrisoDaFortuna\\Forms\\FormLogin.cs",
               "RelativeDocumentMoniker": "SorrisoDaFortuna\\Forms\\FormLogin.cs",
               "ToolTip": "C:\\Users\\Usuario\\Documents\\Tarb_Cassino\\cassino\\SorrisoDaFortuna\\Forms\\FormLogin.cs [Design]",
-              "RelativeToolTip": "..\\..\\..\\..\\..\\Usuario\\Documents\\Tarb_Cassino\\cassino\\SorrisoDaFortuna\\Forms\\FormLogin.cs [Design]",
+              "RelativeToolTip": "SorrisoDaFortuna\\Forms\\FormLogin.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-12-04T23:25:44.973Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 21,
               "Title": "FormCadastro.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\guilh\\JS\\TrabCassino\\cassino-projeto\\SorrisoDaFortuna\\SorrisoDaFortuna\\Forms\\FormCadastro.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\Tarb_Cassino\\cassino\\SorrisoDaFortuna\\Forms\\FormCadastro.Designer.cs",
               "RelativeDocumentMoniker": "SorrisoDaFortuna\\Forms\\FormCadastro.Designer.cs",
-              "ToolTip": "C:\\Users\\guilh\\JS\\TrabCassino\\cassino-projeto\\SorrisoDaFortuna\\SorrisoDaFortuna\\Forms\\FormCadastro.Designer.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Documents\\Tarb_Cassino\\cassino\\SorrisoDaFortuna\\Forms\\FormCadastro.Designer.cs",
               "RelativeToolTip": "SorrisoDaFortuna\\Forms\\FormCadastro.Designer.cs",
               "ViewState": "AgIAAK0AAAAAAAAAAAAYwM4AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -402,11 +446,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 22,
               "Title": "UsuarioRepository.cs",
-              "DocumentMoniker": "C:\\Users\\guilh\\JS\\TrabCassino\\cassino-projeto\\SorrisoDaFortuna\\SorrisoDaFortuna\\Repo\\UsuarioRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\Tarb_Cassino\\cassino\\SorrisoDaFortuna\\Repo\\UsuarioRepository.cs",
               "RelativeDocumentMoniker": "SorrisoDaFortuna\\Repo\\UsuarioRepository.cs",
-              "ToolTip": "C:\\Users\\guilh\\JS\\TrabCassino\\cassino-projeto\\SorrisoDaFortuna\\SorrisoDaFortuna\\Repo\\UsuarioRepository.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Documents\\Tarb_Cassino\\cassino\\SorrisoDaFortuna\\Repo\\UsuarioRepository.cs",
               "RelativeToolTip": "SorrisoDaFortuna\\Repo\\UsuarioRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -414,11 +458,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 23,
               "Title": "FormDeposito.cs",
-              "DocumentMoniker": "C:\\Users\\guilh\\JS\\TrabCassino\\cassino-projeto\\SorrisoDaFortuna\\SorrisoDaFortuna\\Forms\\FormDeposito.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\Tarb_Cassino\\cassino\\SorrisoDaFortuna\\Forms\\FormDeposito.cs",
               "RelativeDocumentMoniker": "SorrisoDaFortuna\\Forms\\FormDeposito.cs",
-              "ToolTip": "C:\\Users\\guilh\\JS\\TrabCassino\\cassino-projeto\\SorrisoDaFortuna\\SorrisoDaFortuna\\Forms\\FormDeposito.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Documents\\Tarb_Cassino\\cassino\\SorrisoDaFortuna\\Forms\\FormDeposito.cs",
               "RelativeToolTip": "SorrisoDaFortuna\\Forms\\FormDeposito.cs",
               "ViewState": "AgIAADAAAAAAAAAAAAAYwFAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -426,125 +470,125 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 24,
               "Title": "Form21.cs [Design]",
               "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\Tarb_Cassino\\cassino\\SorrisoDaFortuna\\Form21.cs",
-              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\Usuario\\Documents\\Tarb_Cassino\\cassino\\SorrisoDaFortuna\\Form21.cs",
+              "RelativeDocumentMoniker": "SorrisoDaFortuna\\Form21.cs",
               "ToolTip": "C:\\Users\\guilh\\JS\\TrabCassino\\cassino-projeto\\SorrisoDaFortuna\\SorrisoDaFortuna\\Form21.cs [Design]",
-              "RelativeToolTip": "SorrisoDaFortuna\\Form21.cs [Design]",
+              "RelativeToolTip": "..\\..\\..\\..\\guilh\\JS\\TrabCassino\\cassino-projeto\\SorrisoDaFortuna\\SorrisoDaFortuna\\Form21.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-12-03T19:14:39.574Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 25,
               "Title": "FormDeposito.cs",
               "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\Tarb_Cassino\\cassino\\SorrisoDaFortuna\\FormDeposito.cs",
-              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\Usuario\\Documents\\Tarb_Cassino\\cassino\\SorrisoDaFortuna\\FormDeposito.cs",
+              "RelativeDocumentMoniker": "SorrisoDaFortuna\\FormDeposito.cs",
               "ToolTip": "C:\\Users\\Usuario\\Documents\\Tarb_Cassino\\cassino\\SorrisoDaFortuna\\FormDeposito.cs",
-              "RelativeToolTip": "..\\..\\..\\..\\..\\Usuario\\Documents\\Tarb_Cassino\\cassino\\SorrisoDaFortuna\\FormDeposito.cs",
+              "RelativeToolTip": "SorrisoDaFortuna\\FormDeposito.cs",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-12-03T18:11:17.725Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 26,
               "Title": "Form21.cs",
               "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\Tarb_Cassino\\cassino\\SorrisoDaFortuna\\Form21.cs",
-              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\Usuario\\Documents\\Tarb_Cassino\\cassino\\SorrisoDaFortuna\\Form21.cs",
+              "RelativeDocumentMoniker": "SorrisoDaFortuna\\Form21.cs",
               "ToolTip": "C:\\Users\\Usuario\\Documents\\Tarb_Cassino\\cassino\\SorrisoDaFortuna\\Form21.cs",
-              "RelativeToolTip": "..\\..\\..\\..\\..\\Usuario\\Documents\\Tarb_Cassino\\cassino\\SorrisoDaFortuna\\Form21.cs",
+              "RelativeToolTip": "SorrisoDaFortuna\\Form21.cs",
               "ViewState": "AgIAAAQAAAAAAAAAAAAIwBQAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-12-03T19:15:12.742Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 27,
               "Title": "FormNumBichos.cs [Design]",
               "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\Tarb_Cassino\\cassino\\SorrisoDaFortuna\\FormNumBichos.cs",
-              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\Usuario\\Documents\\Tarb_Cassino\\cassino\\SorrisoDaFortuna\\FormNumBichos.cs",
+              "RelativeDocumentMoniker": "SorrisoDaFortuna\\FormNumBichos.cs",
               "ToolTip": "C:\\Users\\guilh\\JS\\TrabCassino\\cassino-projeto\\SorrisoDaFortuna\\SorrisoDaFortuna\\FormNumBichos.cs [Design]",
-              "RelativeToolTip": "SorrisoDaFortuna\\FormNumBichos.cs [Design]",
+              "RelativeToolTip": "..\\..\\..\\..\\guilh\\JS\\TrabCassino\\cassino-projeto\\SorrisoDaFortuna\\SorrisoDaFortuna\\FormNumBichos.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-12-03T19:34:59.847Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 28,
               "Title": "FormTigrinho.cs",
               "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\Tarb_Cassino\\cassino\\SorrisoDaFortuna\\FormTigrinho.cs",
-              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\Usuario\\Documents\\Tarb_Cassino\\cassino\\SorrisoDaFortuna\\FormTigrinho.cs",
+              "RelativeDocumentMoniker": "SorrisoDaFortuna\\FormTigrinho.cs",
               "ToolTip": "C:\\Users\\Usuario\\Documents\\Tarb_Cassino\\cassino\\SorrisoDaFortuna\\FormTigrinho.cs",
-              "RelativeToolTip": "..\\..\\..\\..\\..\\Usuario\\Documents\\Tarb_Cassino\\cassino\\SorrisoDaFortuna\\FormTigrinho.cs",
+              "RelativeToolTip": "SorrisoDaFortuna\\FormTigrinho.cs",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-12-03T19:19:26.06Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 29,
               "Title": "FormNumBichos.cs",
               "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\Tarb_Cassino\\cassino\\SorrisoDaFortuna\\FormNumBichos.cs",
-              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\Usuario\\Documents\\Tarb_Cassino\\cassino\\SorrisoDaFortuna\\FormNumBichos.cs",
+              "RelativeDocumentMoniker": "SorrisoDaFortuna\\FormNumBichos.cs",
               "ToolTip": "C:\\Users\\Usuario\\Documents\\Tarb_Cassino\\cassino\\SorrisoDaFortuna\\FormNumBichos.cs",
-              "RelativeToolTip": "..\\..\\..\\..\\..\\Usuario\\Documents\\Tarb_Cassino\\cassino\\SorrisoDaFortuna\\FormNumBichos.cs",
+              "RelativeToolTip": "SorrisoDaFortuna\\FormNumBichos.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-12-03T19:38:57.333Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 30,
               "Title": "FormTigrinho.cs [Design]",
               "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\Tarb_Cassino\\cassino\\SorrisoDaFortuna\\FormTigrinho.cs",
-              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\Usuario\\Documents\\Tarb_Cassino\\cassino\\SorrisoDaFortuna\\FormTigrinho.cs",
+              "RelativeDocumentMoniker": "SorrisoDaFortuna\\FormTigrinho.cs",
               "ToolTip": "C:\\Users\\guilh\\JS\\TrabCassino\\cassino-projeto\\SorrisoDaFortuna\\SorrisoDaFortuna\\FormTigrinho.cs [Design]",
-              "RelativeToolTip": "SorrisoDaFortuna\\FormTigrinho.cs [Design]",
+              "RelativeToolTip": "..\\..\\..\\..\\guilh\\JS\\TrabCassino\\cassino-projeto\\SorrisoDaFortuna\\SorrisoDaFortuna\\FormTigrinho.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-12-03T19:14:11.607Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 31,
               "Title": "FormLogin.cs",
               "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\Tarb_Cassino\\cassino\\SorrisoDaFortuna\\FormLogin.cs",
-              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\Usuario\\Documents\\Tarb_Cassino\\cassino\\SorrisoDaFortuna\\FormLogin.cs",
+              "RelativeDocumentMoniker": "SorrisoDaFortuna\\FormLogin.cs",
               "ToolTip": "C:\\Users\\Usuario\\Documents\\Tarb_Cassino\\cassino\\SorrisoDaFortuna\\FormLogin.cs",
-              "RelativeToolTip": "..\\..\\..\\..\\..\\Usuario\\Documents\\Tarb_Cassino\\cassino\\SorrisoDaFortuna\\FormLogin.cs",
+              "RelativeToolTip": "SorrisoDaFortuna\\FormLogin.cs",
               "ViewState": "AgIAACQAAAAAAAAAAAAowDYAAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-12-03T18:11:43.086Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 32,
               "Title": "FormCadastro.cs [Design]",
               "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\Tarb_Cassino\\cassino\\SorrisoDaFortuna\\FormCadastro.cs",
-              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\Usuario\\Documents\\Tarb_Cassino\\cassino\\SorrisoDaFortuna\\FormCadastro.cs",
+              "RelativeDocumentMoniker": "SorrisoDaFortuna\\FormCadastro.cs",
               "ToolTip": "C:\\Users\\guilh\\JS\\TrabCassino\\cassino-projeto\\SorrisoDaFortuna\\SorrisoDaFortuna\\FormCadastro.cs [Design]",
-              "RelativeToolTip": "SorrisoDaFortuna\\FormCadastro.cs [Design]",
+              "RelativeToolTip": "..\\..\\..\\..\\guilh\\JS\\TrabCassino\\cassino-projeto\\SorrisoDaFortuna\\SorrisoDaFortuna\\FormCadastro.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-12-03T18:09:21.384Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
+              "DocumentIndex": 33,
               "Title": "FormDeposito.cs [Design]",
               "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\Tarb_Cassino\\cassino\\SorrisoDaFortuna\\FormDeposito.cs",
-              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\Usuario\\Documents\\Tarb_Cassino\\cassino\\SorrisoDaFortuna\\FormDeposito.cs",
+              "RelativeDocumentMoniker": "SorrisoDaFortuna\\FormDeposito.cs",
               "ToolTip": "C:\\Users\\guilh\\JS\\TrabCassino\\cassino-projeto\\SorrisoDaFortuna\\SorrisoDaFortuna\\FormDeposito.cs [Design]",
-              "RelativeToolTip": "SorrisoDaFortuna\\FormDeposito.cs [Design]",
+              "RelativeToolTip": "..\\..\\..\\..\\guilh\\JS\\TrabCassino\\cassino-projeto\\SorrisoDaFortuna\\SorrisoDaFortuna\\FormDeposito.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-12-03T18:11:15.049Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 33,
+              "DocumentIndex": 34,
               "Title": "UsuarioRepository.cs",
               "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\Tarb_Cassino\\cassino\\SorrisoDaFortuna\\UsuarioRepository.cs",
-              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\Usuario\\Documents\\Tarb_Cassino\\cassino\\SorrisoDaFortuna\\UsuarioRepository.cs",
+              "RelativeDocumentMoniker": "SorrisoDaFortuna\\UsuarioRepository.cs",
               "ToolTip": "C:\\Users\\Usuario\\Documents\\Tarb_Cassino\\cassino\\SorrisoDaFortuna\\UsuarioRepository.cs",
-              "RelativeToolTip": "..\\..\\..\\..\\..\\Usuario\\Documents\\Tarb_Cassino\\cassino\\SorrisoDaFortuna\\UsuarioRepository.cs",
+              "RelativeToolTip": "SorrisoDaFortuna\\UsuarioRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAFIAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-12-03T18:09:46.581Z"

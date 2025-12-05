@@ -1,18 +1,11 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Drawing;
 
 namespace SorrisoDaFortuna
 {
-    using System;
-    using System.Windows.Forms;
-
     public partial class Form21 : Form
     {
         UsuarioRepository repo = new UsuarioRepository(BdUtil.ConnectionString);
@@ -27,20 +20,24 @@ namespace SorrisoDaFortuna
         {
             usuarioLogado = usuario;
             InitializeComponent();
-            lblSaldo.Text = $"Saldo: R$ {usuarioLogado.Saldo:F2}";
+
+            usuarioLogado.Saldo = repo.ObterSaldoAtual(usuarioLogado.Email);
+
+            ExibirSaldo();
         }
+
         private void btnVoltar_Click(object sender, EventArgs e)
         {
             MainForm main = new MainForm(usuarioLogado);
             this.Hide();
             main.ShowDialog();
         }
-        
+
         private void btnApostar_Click(object sender, EventArgs e)
-        { 
-            if (!decimal.TryParse(txtAposta.Text, out aposta) ||aposta <= 0)
+        {
+            if (!decimal.TryParse(txtAposta.Text, out aposta) || aposta <= 0)
             {
-                lblMsg.Text = "Aposta inválida";
+                lblMsg.Text = "Aposta inválida (R$ > 0)";
                 return;
             }
 
@@ -50,10 +47,9 @@ namespace SorrisoDaFortuna
                 return;
             }
 
-            usuarioLogado.Saldo -= aposta;
-            AtualizarSaldo();
+            AtualizarSaldoLocalEBanco(-aposta);
 
-            jogador = rng.Next(12, 22); // jogador recebe um valor aleatório entre 12 e 21
+            jogador = rng.Next(12, 22);
             dealer = rng.Next(12, 22);
 
             lblJogador.Text = $"Jogador: {jogador}";
@@ -62,70 +58,109 @@ namespace SorrisoDaFortuna
             btnHit.Enabled = true;
             btnStand.Enabled = true;
             btnApostar.Enabled = false;
+
+            btnHit.Visible = true;
+            btnStand.Visible = true;
+            txtAposta.Enabled = false;
+
+            lblMsg.Text = "HIT (pedir carta) ou STAND (parar)?";
         }
 
         private void btnHit_Click(object sender, EventArgs e)
         {
-            jogador += rng.Next(1, 11); // compra de 1 a 10
+            jogador += rng.Next(1, 11);
             lblJogador.Text = $"Jogador: {jogador}";
 
             if (jogador > 21)
             {
+                lblMsg.Text = "ESTOURO (BUST)! Você perdeu.";
                 Finalizar(false);
             }
         }
 
         private void btnStand_Click(object sender, EventArgs e)
         {
-            dealer = rng.Next(16, 23); // dealer joga até pelo menos 16
             lblDealer.Text = $"Dealer: {dealer}";
 
-            if (dealer > 21) Finalizar(true);
-            else if (jogador > dealer) Finalizar(true);
-            else if (jogador < dealer) Finalizar(false);
-            else Finalizar(null); // empate
+            if (dealer > 21)
+            {
+                lblMsg.Text = "Dealer estourou! Você venceu!";
+                Finalizar(true);
+            }
+            else if (jogador > dealer)
+            {
+                lblMsg.Text = "Você venceu!";
+                Finalizar(true);
+            }
+            else if (jogador < dealer)
+            {
+                lblMsg.Text = "Você perdeu!";
+                Finalizar(false);
+            }
+            else
+            {
+                lblMsg.Text = "Empate (Push)";
+                Finalizar(null);
+            }
         }
 
         private void Finalizar(bool? ganhou)
         {
+            decimal valorParaBanco = 0;
+
             if (ganhou == true)
             {
-                usuarioLogado.Saldo += aposta * 2;
-                lblMsg.Text = "Você venceu!";
+                valorParaBanco = aposta * 2;
             }
             else if (ganhou == false)
             {
-                lblMsg.Text = "Você perdeu!";
+                valorParaBanco = 0;
             }
             else
             {
-                usuarioLogado.Saldo += aposta;
-                lblMsg.Text = "Empate (Push)";
+                valorParaBanco = aposta;
             }
 
-            AtualizarSaldo();
+            if (valorParaBanco > 0)
+            {
+                AtualizarSaldoLocalEBanco(valorParaBanco);
+            }
 
             aposta = 0;
             btnHit.Enabled = false;
             btnStand.Enabled = false;
             btnApostar.Enabled = true;
+
+            btnHit.Visible = false;
+            btnStand.Visible = false;
+            txtAposta.Enabled = true;
+        }
+
+        private void AtualizarSaldoLocalEBanco(decimal valor)
+        {
+            usuarioLogado.Saldo += valor;
+
+            repo.AtualizarSaldo(new Usuario
+            {
+                Email = usuarioLogado.Email,
+                Saldo = valor
+            });
+
+            AtualizarSaldo();
         }
 
         private void AtualizarSaldo()
         {
             lblSaldo.Text = $"Saldo: R$ {usuarioLogado.Saldo:F2}";
         }
-       /* private void btnVoltar_Click(object sender, EventArgs e)
-        {
-            MainForm main = new MainForm(usuarioLogado);
-            this.Hide();
-            main.ShowDialog();
-        }*/
+
         private void ExibirSaldo()
         {
-            lblSaldo.Text = $"Saldo: R$ {usuarioLogado.Saldo:F2}";
+            AtualizarSaldo();
+        }
+
+        private void lblSaldo_Click(object sender, EventArgs e)
+        {
         }
     }
 }
-
-
